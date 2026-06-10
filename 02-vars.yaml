@@ -1,6 +1,6 @@
 - name: Demon on variables
   hosts: localhost
-  connection: local
+  connection: Local
   vars_files: 
    -course.yaml
   tasks: 
