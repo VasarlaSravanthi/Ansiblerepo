@@ -1,0 +1,6 @@
+- name: ping server
+  hosts: #target server
+  tasks:
+   - name : ping the server
+     ping:
+  
