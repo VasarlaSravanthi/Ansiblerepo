@@ -6,4 +6,4 @@
   tasks: 
    - name: Print variables
      debug:
-     msg: "I am Leaning {{COURSE}} from {{TRAINER}} with {{DURATION}}"
+       msg: "I am Leaning {{COURSE}} from {{TRAINER}} with {{DURATION}}"
