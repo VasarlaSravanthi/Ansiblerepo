@@ -2,9 +2,9 @@
   hosts: localhost
   connection: local
   vars:
-   COURSE:"Anisbe"
-   TRAINER:"Siva Kumar"
-   DURATION:"150HRS"
+   COURSE: "Anisbe"
+   TRAINER: "Siva Kumar"
+   DURATION: "150HRS"
   tasks:
   - debug:
      msg: "Hello.. I am Learing {{COURSE}}, from {{TRAINER}} and its duration is {{DURATION}}"
