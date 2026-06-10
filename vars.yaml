@@ -6,8 +6,8 @@
    TRAINER: "Siva Kumar"
    DURATION: "150HRS"
   tasks:
-  -name: Print Variables
-   vars:
+  - name: Print Variables
+    vars:
      COURSE: "DEVSECOPS with AiOPs and MLOPS"
     debug:
      msg: "Hello.. I am Learing {{COURSE}}, from {{TRAINER}} and its duration is {{DURATION}}"
