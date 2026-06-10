@@ -1,0 +1,6 @@
+- name: Demo on variables
+  hosts: localhost
+  connection: local
+  tasks:
+  - debug:
+     msg: "Hi Anisbe Server"
