@@ -1,5 +1,5 @@
 - name: Demo on variables
-  hosts: Local
+  hosts: local
   connection: local
   vars_files: 
    -course.yaml
