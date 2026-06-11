@@ -10,6 +10,7 @@
      prompt: "Please enter Password"
      private: true
   tasks:
+  - name: Prompt print
     debug:
       msg: "Hi My name is {{username}} and secretcode is {{Password}}"
 
