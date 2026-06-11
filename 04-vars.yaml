@@ -1,0 +1,7 @@
+- name: Demo on inventory variables
+  hosts: local
+  connection: local
+  tasks:
+   - name: Print varibale information
+     debug:
+       msg: "I am Leaning {{COURSE}} from {{TRAINER}} with {{DURATION}}"
