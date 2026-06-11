@@ -5,5 +5,7 @@
    - course.yaml
   tasks: 
    - name: Print variables
+     vars:
+     COURSE: "DEVSECOPS - AIOPS & MLOPS"
      debug:
        msg: "I am Leaning {{COURSE}} from {{TRAINER}} with {{DURATION}}"
